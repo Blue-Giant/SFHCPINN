@@ -1,5 +1,5 @@
 # Idea for SFHCPINN
-Solving a class of advection-diffusion equations with smooth or multiple scales coefficient by combining Fourier-based subnet physics informed neural networks and hard boundary technique(dubbed SFHCPINN), the solver of SFHCPINN is configured as a multi-scale sub-fourier deep neural networks.
+Solving a class of advection-diffusion equations with smooth or multiple scales components by combining Fourier-based subnet physics informed neural networks and hard boundary technique(dubbed SFHCPINN), the solver of SFHCPINN is configured as a multi-scale sub-fourier deep neural networks.
 
 # Title of paper
 Physical informed neural networks with soft and hard boundary constraints for solving advection-diffusion equations using Fourier expansions
