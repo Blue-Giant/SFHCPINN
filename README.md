@@ -1,4 +1,7 @@
-# Title
+# Idea for FMPINN
+Solving a class of elliptic partial differential equations(PDEs) with multiple scales utilizing Fourier-based mixed physics informed neural networks(dubbed FMPINN), the solver of FMPINN is configured as a multi-scale deep neural networks.
+
+# Title of paper
 Physical informed neural networks with soft and hard boundary constraints for solving advection-diffusion equations using Fourier expansions
 
 # Abstract
