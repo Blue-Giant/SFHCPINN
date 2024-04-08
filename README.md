@@ -1,6 +1,4 @@
 # 目的
-该文件夹下的代码为使用 Transformer 进行算子学习。
-将Tranformer与之前的ScaleDNN和FourierDNN进行结合，提升Transformer的性能。
 
 # Solve the advection diffusion equation in one- to three-dimensional space
 
