@@ -1,0 +1,602 @@
+PDE type for problem: HardPINN
+
+Equation name for problem: ADE1d_Sin(2pi)+0.1sin(50Pi)_Analytical_D_G
+
+Network model of solving problem: Fourier_DNN
+
+Activate function for NN-input: [Sin;Cos]
+
+Activate function for NN-hidden: sin
+
+Activate function for NN-output: linear
+
+hidden layer:(100, 150, 80, 80, 50)
+
+The frequency to neural network: [ 1.  2.  3.  4.  5.  6.  8. 10. 12. 14. 16. 18. 20. 22. 24. 26. 28. 30.
+ 32. 34. 36. 38. 40.]
+
+The scale-factor to fourier basis: 1.0
+
+Loss function: L2 loss
+
+The model for training loss: total loss
+
+optimizer:Adam
+
+Init learning rate: 0.01
+
+Batch-size 2 interior for training: 3000
+
+Batch-size 2 boundary for training: 1000
+
+Initial boundary penalty: 20
+
+The penalty of boundary will increase with training going on.
+
+Model to load testing dataset: load_MatData
+
+Batch-size for testing: 100
+
+no activate the stop_step and given_step = default: 50000
+
+train epoch: 0,time: 0.609
+learning rate: 0.010000
+loss_it for training: 9.641880035400391
+loss for training: 9.641880035400391
+solution mean square error for training: 0.011319693177938
+solution relative error for training: 0.028537239879370
+
+mean square error of predict and real for testing: 0.041794251650572
+relative error of predict and real for testing: 0.104369692504406
+
+
+train epoch: 1000,time: 7.360
+learning rate: 0.007763
+loss_it for training: 9.590462684631348
+loss for training: 9.590462684631348
+solution mean square error for training: 0.012663492932916
+solution relative error for training: 0.031874407082796
+
+mean square error of predict and real for testing: 0.012714314274490
+relative error of predict and real for testing: 0.031750515103340
+
+
+train epoch: 2000,time: 14.105
+learning rate: 0.006027
+loss_it for training: 0.460396647453308
+loss for training: 0.460396647453308
+solution mean square error for training: 0.002001799643040
+solution relative error for training: 0.005043776240200
+
+mean square error of predict and real for testing: 0.001975707709789
+relative error of predict and real for testing: 0.004933788906783
+
+
+train epoch: 3000,time: 20.827
+learning rate: 0.004679
+loss_it for training: 0.143089964985847
+loss for training: 0.143089964985847
+solution mean square error for training: 0.000227554672165
+solution relative error for training: 0.000569430470932
+
+mean square error of predict and real for testing: 0.000209997888305
+relative error of predict and real for testing: 0.000524412200321
+
+
+train epoch: 4000,time: 27.571
+learning rate: 0.003632
+loss_it for training: 0.098851956427097
+loss for training: 0.098851956427097
+solution mean square error for training: 0.000187852245290
+solution relative error for training: 0.000472631305456
+
+mean square error of predict and real for testing: 0.000160486350069
+relative error of predict and real for testing: 0.000400770688429
+
+
+train epoch: 5000,time: 33.645
+learning rate: 0.002820
+loss_it for training: 0.112510353326797
+loss for training: 0.112510353326797
+solution mean square error for training: 0.000152721695486
+solution relative error for training: 0.000383835606044
+
+mean square error of predict and real for testing: 0.000136649963679
+relative error of predict and real for testing: 0.000341245846357
+
+
+train epoch: 6000,time: 39.723
+learning rate: 0.002189
+loss_it for training: 0.074217952787876
+loss for training: 0.074217952787876
+solution mean square error for training: 0.000133441484650
+solution relative error for training: 0.000335699471179
+
+mean square error of predict and real for testing: 0.000108199354145
+relative error of predict and real for testing: 0.000270198244834
+
+
+train epoch: 7000,time: 45.632
+learning rate: 0.001700
+loss_it for training: 0.063333429396152
+loss for training: 0.063333429396152
+solution mean square error for training: 0.000112916619400
+solution relative error for training: 0.000283755187411
+
+mean square error of predict and real for testing: 0.000097375072073
+relative error of predict and real for testing: 0.000243167567533
+
+
+train epoch: 8000,time: 51.527
+learning rate: 0.001319
+loss_it for training: 0.029007447883487
+loss for training: 0.029007447883487
+solution mean square error for training: 0.000105320177681
+solution relative error for training: 0.000264242698904
+
+mean square error of predict and real for testing: 0.000091904097644
+relative error of predict and real for testing: 0.000229505298194
+
+
+train epoch: 9000,time: 57.415
+learning rate: 0.001024
+loss_it for training: 0.056081704795361
+loss for training: 0.056081704795361
+solution mean square error for training: 0.000106188119389
+solution relative error for training: 0.000268207397312
+
+mean square error of predict and real for testing: 0.000085630090325
+relative error of predict and real for testing: 0.000213837687625
+
+
+train epoch: 10000,time: 63.286
+learning rate: 0.000795
+loss_it for training: 0.042351353913546
+loss for training: 0.042351353913546
+solution mean square error for training: 0.000097259602626
+solution relative error for training: 0.000243765636696
+
+mean square error of predict and real for testing: 0.000080738340330
+relative error of predict and real for testing: 0.000201621878659
+
+
+train epoch: 11000,time: 69.196
+learning rate: 0.000617
+loss_it for training: 0.028293680399656
+loss for training: 0.028293680399656
+solution mean square error for training: 0.000085471190687
+solution relative error for training: 0.000214839601540
+
+mean square error of predict and real for testing: 0.000072964045103
+relative error of predict and real for testing: 0.000182207717444
+
+
+train epoch: 12000,time: 75.089
+learning rate: 0.000479
+loss_it for training: 0.015763567760587
+loss for training: 0.015763567760587
+solution mean square error for training: 0.000073189774412
+solution relative error for training: 0.000184493837878
+
+mean square error of predict and real for testing: 0.000068291483331
+relative error of predict and real for testing: 0.000170539264218
+
+
+train epoch: 13000,time: 80.967
+learning rate: 0.000372
+loss_it for training: 0.028548186644912
+loss for training: 0.028548186644912
+solution mean square error for training: 0.000083923419879
+solution relative error for training: 0.000211268430576
+
+mean square error of predict and real for testing: 0.000065679581894
+relative error of predict and real for testing: 0.000164016761119
+
+
+train epoch: 14000,time: 86.867
+learning rate: 0.000289
+loss_it for training: 0.022568486630917
+loss for training: 0.022568486630917
+solution mean square error for training: 0.000084829327534
+solution relative error for training: 0.000213541163248
+
+mean square error of predict and real for testing: 0.000062180050008
+relative error of predict and real for testing: 0.000155277637532
+
+
+train epoch: 15000,time: 92.763
+learning rate: 0.000224
+loss_it for training: 0.016112076118588
+loss for training: 0.016112076118588
+solution mean square error for training: 0.000069520705438
+solution relative error for training: 0.000173995926161
+
+mean square error of predict and real for testing: 0.000057224340708
+relative error of predict and real for testing: 0.000142902106745
+
+
+train epoch: 16000,time: 98.622
+learning rate: 0.000174
+loss_it for training: 0.020140422508121
+loss for training: 0.020140422508121
+solution mean square error for training: 0.000076020478446
+solution relative error for training: 0.000191856728634
+
+mean square error of predict and real for testing: 0.000056656866946
+relative error of predict and real for testing: 0.000141484997584
+
+
+train epoch: 17000,time: 104.538
+learning rate: 0.000135
+loss_it for training: 0.015110600739717
+loss for training: 0.015110600739717
+solution mean square error for training: 0.000067725348345
+solution relative error for training: 0.000170209619682
+
+mean square error of predict and real for testing: 0.000054470951000
+relative error of predict and real for testing: 0.000136026283144
+
+
+train epoch: 18000,time: 110.378
+learning rate: 0.000105
+loss_it for training: 0.012148703448474
+loss for training: 0.012148703448474
+solution mean square error for training: 0.000068913876021
+solution relative error for training: 0.000172769970959
+
+mean square error of predict and real for testing: 0.000054665444623
+relative error of predict and real for testing: 0.000136511967867
+
+
+train epoch: 19000,time: 116.301
+learning rate: 0.000081
+loss_it for training: 0.008225682191551
+loss for training: 0.008225682191551
+solution mean square error for training: 0.000063988009060
+solution relative error for training: 0.000161242394825
+
+mean square error of predict and real for testing: 0.000052247560234
+relative error of predict and real for testing: 0.000130473970785
+
+
+train epoch: 20000,time: 122.181
+learning rate: 0.000063
+loss_it for training: 0.027180990204215
+loss for training: 0.027180990204215
+solution mean square error for training: 0.000070705536928
+solution relative error for training: 0.000177958514541
+
+mean square error of predict and real for testing: 0.000053001644119
+relative error of predict and real for testing: 0.000132357090479
+
+
+train epoch: 21000,time: 128.057
+learning rate: 0.000049
+loss_it for training: 0.007643786258996
+loss for training: 0.007643786258996
+solution mean square error for training: 0.000065663814894
+solution relative error for training: 0.000165422563441
+
+mean square error of predict and real for testing: 0.000051443526900
+relative error of predict and real for testing: 0.000128466112074
+
+
+train epoch: 22000,time: 133.936
+learning rate: 0.000038
+loss_it for training: 0.006175093818456
+loss for training: 0.006175093818456
+solution mean square error for training: 0.000065403801273
+solution relative error for training: 0.000164707395015
+
+mean square error of predict and real for testing: 0.000051550498029
+relative error of predict and real for testing: 0.000128733241581
+
+
+train epoch: 23000,time: 139.852
+learning rate: 0.000030
+loss_it for training: 0.016868816688657
+loss for training: 0.016868816688657
+solution mean square error for training: 0.000071072427090
+solution relative error for training: 0.000179285809281
+
+mean square error of predict and real for testing: 0.000050650382036
+relative error of predict and real for testing: 0.000126485450892
+
+
+train epoch: 24000,time: 145.740
+learning rate: 0.000023
+loss_it for training: 0.010098934173584
+loss for training: 0.010098934173584
+solution mean square error for training: 0.000071724469308
+solution relative error for training: 0.000180347895366
+
+mean square error of predict and real for testing: 0.000051228584198
+relative error of predict and real for testing: 0.000127929350128
+
+
+train epoch: 25000,time: 151.635
+learning rate: 0.000018
+loss_it for training: 0.013873473741114
+loss for training: 0.013873473741114
+solution mean square error for training: 0.000063749175752
+solution relative error for training: 0.000160548821441
+
+mean square error of predict and real for testing: 0.000049928472436
+relative error of predict and real for testing: 0.000124682686874
+
+
+train epoch: 26000,time: 157.520
+learning rate: 0.000014
+loss_it for training: 0.014261235482991
+loss for training: 0.014261235482991
+solution mean square error for training: 0.000069477297075
+solution relative error for training: 0.000175323453732
+
+mean square error of predict and real for testing: 0.000050380866014
+relative error of predict and real for testing: 0.000125812410261
+
+
+train epoch: 27000,time: 163.393
+learning rate: 0.000011
+loss_it for training: 0.016315015032887
+loss for training: 0.016315015032887
+solution mean square error for training: 0.000073032526416
+solution relative error for training: 0.000183796204510
+
+mean square error of predict and real for testing: 0.000050597474910
+relative error of predict and real for testing: 0.000126353334053
+
+
+train epoch: 28000,time: 169.272
+learning rate: 0.000008
+loss_it for training: 0.010119693353772
+loss for training: 0.010119693353772
+solution mean square error for training: 0.000059981746745
+solution relative error for training: 0.000150909807417
+
+mean square error of predict and real for testing: 0.000050236751122
+relative error of predict and real for testing: 0.000125452526845
+
+
+train epoch: 29000,time: 175.172
+learning rate: 0.000006
+loss_it for training: 0.012249676510692
+loss for training: 0.012249676510692
+solution mean square error for training: 0.000066248190706
+solution relative error for training: 0.000166844940395
+
+mean square error of predict and real for testing: 0.000050258007832
+relative error of predict and real for testing: 0.000125505612232
+
+
+train epoch: 30000,time: 181.076
+learning rate: 0.000005
+loss_it for training: 0.005066785495728
+loss for training: 0.005066785495728
+solution mean square error for training: 0.000056334585679
+solution relative error for training: 0.000141224954859
+
+mean square error of predict and real for testing: 0.000049792946811
+relative error of predict and real for testing: 0.000124344238429
+
+
+train epoch: 31000,time: 186.953
+learning rate: 0.000004
+loss_it for training: 0.004696741700172
+loss for training: 0.004696741700172
+solution mean square error for training: 0.000059838785091
+solution relative error for training: 0.000150470528752
+
+mean square error of predict and real for testing: 0.000049905618653
+relative error of predict and real for testing: 0.000124625614262
+
+
+train epoch: 32000,time: 192.798
+learning rate: 0.000003
+loss_it for training: 0.013097186572850
+loss for training: 0.013097186572850
+solution mean square error for training: 0.000070794732892
+solution relative error for training: 0.000178082089406
+
+mean square error of predict and real for testing: 0.000049895264965
+relative error of predict and real for testing: 0.000124599755509
+
+
+train epoch: 33000,time: 198.717
+learning rate: 0.000002
+loss_it for training: 0.007078198716044
+loss for training: 0.007078198716044
+solution mean square error for training: 0.000069069777965
+solution relative error for training: 0.000173884618562
+
+mean square error of predict and real for testing: 0.000049617843615
+relative error of predict and real for testing: 0.000123906967929
+
+
+train epoch: 34000,time: 204.595
+learning rate: 0.000002
+loss_it for training: 0.011979687958956
+loss for training: 0.011979687958956
+solution mean square error for training: 0.000074540323112
+solution relative error for training: 0.000188063349924
+
+mean square error of predict and real for testing: 0.000049554801080
+relative error of predict and real for testing: 0.000123749545310
+
+
+train epoch: 35000,time: 210.504
+learning rate: 0.000001
+loss_it for training: 0.007736466825008
+loss for training: 0.007736466825008
+solution mean square error for training: 0.000056997247157
+solution relative error for training: 0.000143228753586
+
+mean square error of predict and real for testing: 0.000049496586144
+relative error of predict and real for testing: 0.000123604157125
+
+
+train epoch: 36000,time: 216.395
+learning rate: 0.000001
+loss_it for training: 0.007735426537693
+loss for training: 0.007735426537693
+solution mean square error for training: 0.000060811984440
+solution relative error for training: 0.000152660664753
+
+mean square error of predict and real for testing: 0.000049550031690
+relative error of predict and real for testing: 0.000123737627291
+
+
+train epoch: 37000,time: 222.259
+learning rate: 0.000001
+loss_it for training: 0.012633411213756
+loss for training: 0.012633411213756
+solution mean square error for training: 0.000062780898588
+solution relative error for training: 0.000157821399625
+
+mean square error of predict and real for testing: 0.000049663558457
+relative error of predict and real for testing: 0.000124021127704
+
+
+train epoch: 38000,time: 228.144
+learning rate: 0.000001
+loss_it for training: 0.007904153317213
+loss for training: 0.007904153317213
+solution mean square error for training: 0.000069779773185
+solution relative error for training: 0.000176106783329
+
+mean square error of predict and real for testing: 0.000049671507441
+relative error of predict and real for testing: 0.000124040976516
+
+
+train epoch: 39000,time: 234.032
+learning rate: 0.000001
+loss_it for training: 0.014191618189216
+loss for training: 0.014191618189216
+solution mean square error for training: 0.000060604801547
+solution relative error for training: 0.000152773398440
+
+mean square error of predict and real for testing: 0.000049677386414
+relative error of predict and real for testing: 0.000124055659398
+
+
+train epoch: 40000,time: 239.928
+learning rate: 0.000000
+loss_it for training: 0.012573168613017
+loss for training: 0.012573168613017
+solution mean square error for training: 0.000062928360421
+solution relative error for training: 0.000158108538017
+
+mean square error of predict and real for testing: 0.000049719710660
+relative error of predict and real for testing: 0.000124161349959
+
+
+train epoch: 41000,time: 245.809
+learning rate: 0.000000
+loss_it for training: 0.012770210392773
+loss for training: 0.012770210392773
+solution mean square error for training: 0.000060744201619
+solution relative error for training: 0.000152185239131
+
+mean square error of predict and real for testing: 0.000049615617172
+relative error of predict and real for testing: 0.000123901409097
+
+
+train epoch: 42000,time: 251.712
+learning rate: 0.000000
+loss_it for training: 0.011702315881848
+loss for training: 0.011702315881848
+solution mean square error for training: 0.000059296111431
+solution relative error for training: 0.000149353742017
+
+mean square error of predict and real for testing: 0.000049551279517
+relative error of predict and real for testing: 0.000123740741401
+
+
+train epoch: 43000,time: 257.593
+learning rate: 0.000000
+loss_it for training: 0.013774127699435
+loss for training: 0.013774127699435
+solution mean square error for training: 0.000073209754191
+solution relative error for training: 0.000183954907698
+
+mean square error of predict and real for testing: 0.000049573180149
+relative error of predict and real for testing: 0.000123795442050
+
+
+train epoch: 44000,time: 263.478
+learning rate: 0.000000
+loss_it for training: 0.013927784748375
+loss for training: 0.013927784748375
+solution mean square error for training: 0.000069420617365
+solution relative error for training: 0.000174457687535
+
+mean square error of predict and real for testing: 0.000049561072956
+relative error of predict and real for testing: 0.000123765203170
+
+
+train epoch: 45000,time: 269.341
+learning rate: 0.000000
+loss_it for training: 0.014683310873806
+loss for training: 0.014683310873806
+solution mean square error for training: 0.000068810441007
+solution relative error for training: 0.000172778600245
+
+mean square error of predict and real for testing: 0.000049588477850
+relative error of predict and real for testing: 0.000123833640828
+
+
+train epoch: 46000,time: 275.205
+learning rate: 0.000000
+loss_it for training: 0.015782305970788
+loss for training: 0.015782305970788
+solution mean square error for training: 0.000075955889770
+solution relative error for training: 0.000191442464711
+
+mean square error of predict and real for testing: 0.000049596368626
+relative error of predict and real for testing: 0.000123853344121
+
+
+train epoch: 47000,time: 281.177
+learning rate: 0.000000
+loss_it for training: 0.004992917645723
+loss for training: 0.004992917645723
+solution mean square error for training: 0.000064788931923
+solution relative error for training: 0.000163034201250
+
+mean square error of predict and real for testing: 0.000049579055485
+relative error of predict and real for testing: 0.000123810110381
+
+
+train epoch: 48000,time: 287.054
+learning rate: 0.000000
+loss_it for training: 0.011430704966187
+loss for training: 0.011430704966187
+solution mean square error for training: 0.000074907846283
+solution relative error for training: 0.000188286896446
+
+mean square error of predict and real for testing: 0.000049569189287
+relative error of predict and real for testing: 0.000123785473988
+
+
+train epoch: 49000,time: 292.941
+learning rate: 0.000000
+loss_it for training: 0.014663157984614
+loss for training: 0.014663157984614
+solution mean square error for training: 0.000064877764089
+solution relative error for training: 0.000163338874700
+
+mean square error of predict and real for testing: 0.000049572838179
+relative error of predict and real for testing: 0.000123794583487
+
+
+train epoch: 50000,time: 298.829
+learning rate: 0.000000
+loss_it for training: 0.007180794142187
+loss for training: 0.007180794142187
+solution mean square error for training: 0.000071357542765
+solution relative error for training: 0.000179656708497
+
+mean square error of predict and real for testing: 0.000049573303841
+relative error of predict and real for testing: 0.000123795747641
+
+
